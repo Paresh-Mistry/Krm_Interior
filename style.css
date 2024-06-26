@@ -75,7 +75,6 @@ h1{
     column-gap: 20px;
     overflow-x: scroll;
     scrollbar-width:thin;
-    scrollbar-color: transparent transparent;
 }
 
 .light-theme {
@@ -92,5 +91,8 @@ h1{
     .info{
         flex-direction: column;
         text-align: center;
+    }
+    #contract{
+        scrollbar-width:auto;
     }
 }
